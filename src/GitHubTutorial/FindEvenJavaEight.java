@@ -7,7 +7,7 @@ public class FindEvenJavaEight {
 	public static void findEven() {
 		Integer a[] = { 11, 22, 33, 44, 55, 66, 77 };
 
-		System.out.println("Even Numbers:");
+		System.out.println("Even Numbers:");// Print statement for even numbers.
 		Arrays.asList(a).stream().filter(b -> b % 2 == 0).forEach(c -> System.out.print(c + " "));
 
 	}
